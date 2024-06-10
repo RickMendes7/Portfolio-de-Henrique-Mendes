@@ -34,10 +34,10 @@ body{
     position: relative;
     width: fit-content;
   
-    left: 20rem;
+    left: 33vh;
 
     font-size: 7vh;
-    line-height: 0px;
+    line-height: 0vh;
 
     animation: written_tex .5s ease forwards;
 }
@@ -82,26 +82,26 @@ body{
     display: flex;
     align-items: center;
     flex-direction: row;
+    
+    width:80vh;
+    left: 26vh;
    
-    left: 27vh;
 
-    position: absolute;
-    top: 66vh;
-    
-    
-    
+    position: relative;
+    top: 64vh;
+   
 }
 
 .stacks ul li{
     display: flex;
     align-items: center;
     
-    margin-right: 2vh;
-
+   
     position: relative;
     
+  
+   margin-left: 1.5vh;
     
-    padding: auto;
   
     list-style: none;
 } 
@@ -110,7 +110,9 @@ body{
 .stacks ul li img{
     width: 6vh;
     height: auto;
-
+    position: relative;
+   
+    
     
     transition: transform .3s ease;
 
@@ -134,7 +136,7 @@ body{
 }
 
 .stacks .CS {
-    width: 50px;
+    width: 7.4vh;
 }
 
 
@@ -162,7 +164,7 @@ body{
     width: 80vh;
     left: 125vh;
    
-    height: 103.6%;
+    height: 103.6vh;
 
     
     
@@ -177,17 +179,17 @@ body{
 .perfil img{
     width: 40vh;
     position: relative;
-    top: 18vh;
+    top: 10vh;
     left: 145vh;
     border-radius: 50%; 
 }
 
 .redes img {
-    width: 35px;
+    width: 5.5vh;
     position: relative;
-    margin-left: 50px;
-    left: 142vh;
-    top: 21.5vh;
+    margin-left: 6vh;
+    left: 144.4vh;
+    top: 13vh;
     transition: all .3s ease;
     filter: brightness(0.8);
 }
@@ -204,17 +206,17 @@ body{
 
 #about{
     height: 100vh;
-    width: 100%;
+    width: 100vh;
     background: black;
-
+     
 
     display: flex;
     color: white;
 }
 
 .background-about{
-   width: 50%;
-   height: 100%;
+   width: 100vh;
+   height: 100vh;
 
    display: flex;
    justify-content: center;
@@ -224,9 +226,10 @@ body{
 }
 
 .img-wrapper{
-    height: 100%;
-    width: 100%;
-
+    height: 100vh;
+    width: 100vh;
+    
+    left: -3vh;
     position: relative;
 }
 
@@ -236,8 +239,8 @@ body{
     top: 0;
     left: 0;
 
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vh;
 
     background: 
       linear-gradient(.25turn, transparent 30%, black),      
@@ -246,8 +249,8 @@ body{
 }
 
 .img-wrapper img{
-  width: 100%;
-  height: 100%;
+  width: 100vh;
+  height: 100vh;
 
   object-fit: cover;
 }
@@ -260,9 +263,9 @@ body{
     position: absolute;
     left: 100vh;
     top: 95vh;
-    width: 50%;
-
-    padding: 3rem;
+    width: 100vh;
+   
+    padding: 3vh;
 }
 
 .section-subtitle h2 p{
@@ -279,15 +282,18 @@ body{
 }
 
 .box-about h3{
-    margin: 1rem;
-    font-size: 2rem;
+    margin: 0vh;
+    font-size: 3vh;
+   
+    position: relative;
+    top: -5vh;
 }
 
 .box-about h3 p{
    display: inline-block;
 
    width: fit-content;
-   padding: 2px 6px;
+   padding: 1vh 3vh;
    border-radius: 6px;
 
    color: black;
@@ -295,13 +301,15 @@ body{
 }
 
 .box-about h4{
-   margin: 1rem 3rem;
-   font-size: 2.3vh;
+   margin: 1vh 3vh;
+   font-size: 2.6vh;
+
+  
 }
 
 .box-about h4 p{
     display: inline;
-    padding: 7px 4px;
+    padding: 7vh 2vh;
 
     color: blue;
     font-size: bold;
@@ -309,13 +317,13 @@ body{
 }
 
 .box-about p{
-    font-size: 1.7rem;
+    font-size: 3vh;
 }
 
 .button-cta {
     display: flex;
     
-    max-width: 20rem;
+    max-width: 30vh;
     
 }
 
@@ -348,7 +356,7 @@ body{
 
 #projects {
     height: 100vh;
-    width: 100%;
+    width: 200vh;
     background: black;
 
     margin-top: 70vh;
@@ -358,9 +366,9 @@ body{
 }
 
 .projects-title h2{
-    margin: 3rem;
-    padding: 1rem;
-    font-size: 3rem;
+    margin: 3vh;
+    padding: 1vh;
+    font-size: 5vh;
     color: white;
     
 }
@@ -379,8 +387,8 @@ body{
 }*/
 
 .container-projects{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 200vh;
     
     display: flex;
     justify-content: center;
@@ -394,10 +402,10 @@ body{
     /*width: 320px;
     height: 450px;*/
 
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vh;
 
-    padding: 30px 20px 20px;
+    padding: 3vh 2vh 2vh;
     /*margin: 0px 10px;*/
 
     position: relative;
@@ -429,18 +437,18 @@ body{
 }
 
 .swiper {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 200vh;
 
-    max-width: 1020px;
+    max-width: 160vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     flex-direction: row;
-    height: 500px;
-    margin-top: 1rem;
+    height: 74vh;
+    
 }
 
 /*.content-project{
@@ -455,11 +463,11 @@ body{
 }*/
 
 .image-project{
-    max-height: 240px;
-    max-width: 250px;
+    max-height: 38vh;
+    max-width: 40vh;
 
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vh;
 
     position: relative;
     
@@ -467,14 +475,14 @@ body{
     border-radius: 30px;
    
 
-    border-radius: 4px solid purple;
+    border-radius: 4px solid rgb(255, 255, 255);
 
     margin: 0 auto;
 }
 
 .image-project a img{
-    height: 100%;
-    width: 100%;
+    height: 37vh;
+    width: 40vh;
     object-fit: cover;
 
     border-radius: 30px;
@@ -483,7 +491,7 @@ body{
     top: 0;
     left: 0;
 
-    border: 2px solid white;
+    border-radius: 4px solid purple;
 
     transition: transform .3s ease-out;
     cursor: pointer;
@@ -496,10 +504,10 @@ body{
 .card-project span {
     color: black;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3vh;
 
-    margin-left: 4vh ;
-    top: 1rem;
+    margin-left: 6vh ;
+    top: 1.5vh;
     position: relative;
     
 }
@@ -508,16 +516,16 @@ body{
     color: rgb(70, 70, 70);
     font-weight: bold;
     font-size: 1.7vh;
-    margin-left: 2vh;
-    top: 2rem;
+    margin-left: 3.5vh;
+    top: 4vh;
     position: relative;
 }
 
 .cta-project {
-    width: 200px;
-    margin: auto auto 15px auto;
+    width: 30vh;
+    margin: auto auto 15vh auto;
     position: relative;
-    top: 8.4rem;
+    top: 9vh;
 
     display: flex;
     align-items: center;
@@ -527,7 +535,7 @@ body{
 .cta-project a{
     padding: 5px 16px;
 
-    font-size: 1.35rem;
+    font-size: 2.2vh;
     color: white;
     background: purple;
 
@@ -548,18 +556,18 @@ body{
     display: flex;
     flex-direction: column;
 
-    height: 60vh;
-    width: 100%;
+    height: 50vh;
+    width: 200vh;
 
     background: rgb(0, 0, 0);
     color: white;
 }
 
 .contact-icon-content h2 {
-    margin: 3rem 3rem 3rem 0rem;
-    padding: 3rem 3rem 1rem 0rem;
+    margin: 6vh 2vh 6vh 0vh;
+    padding: 6vh 6vh 2vh 0vh;
 
-    font-size: 3rem;
+    font-size: 4vh;
     color: white;
 }
 
@@ -577,44 +585,44 @@ body{
     flex-direction: row;
     align-items: center;
 
-    margin: 0rem 3rem;
-    padding: 1rem;
+    margin: 0vh 3vh;
+    padding: 1vh;
 }
 
 .contact-icon{
-    height: 40px;
-    width: 40px;
+    height: 4vh;
+    width: 4vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    margin-right: 2rem;
+    margin-right: 3vh;
 
     background: white;
-    padding: 3rem;
+    padding: 4vh;
     border-radius: 50%;
 }
 
 .contact-icon i{
 
-    font-size: 2rem;
+    font-size: 4vh;
     color: blue;
 }
 
 .contact-info span{
      display: block;
-     font-size: 1.2rem;
+     font-size: 2vh;
      font-weight: bold;
 }
 
 .contact-info p{
-    margin: .25rem 0rem;
+    margin: .25vh 0vh;
 }
 
 .contact-info a {
     display: block;
-    margin: .25rem 0rem;
+    margin: .25vh 0vh;
 
     text-decoration: none;
     color: white;
@@ -633,10 +641,10 @@ body{
     justify-content: space-between;
     align-items: center;
 
-    width: 100%;
-    height: 80px;
+    width: 200vh;
+    height: 11vh;
 
-    padding: 15px 30px;
+    padding: 1vh 3vh;
 
     background: 'transparent';
     position: fixed;
@@ -653,7 +661,7 @@ body{
 
 .header-title h1 {
     color: white;
-    font-size: 2rem;
+    font-size: 4vh;
 
     transition: opacity .3s ease;
 }
@@ -664,8 +672,8 @@ body{
 
 
 .navbar {
-    max-width: 500px;
-    width: 100%;
+    max-width: 75vh;
+    width: 100vh;
 
 }
 
@@ -684,7 +692,7 @@ body{
 .navbar ul li a{
     text-decoration: none;
     color: white;
-    font-size: 1.7rem;
+    font-size: 2.5vh;
     font-weight: 600;
 }
 
@@ -693,7 +701,7 @@ body{
 
 #footer{
     height: 15vh;
-    width: 100%;
+    width: 210vh;
     position: absolute;
     right: 0;
     display: flex;
@@ -716,7 +724,7 @@ body{
 .container-footer h2,h3 {
     color: white;
     margin-top: 0;
-    font-size: 15px;
+    font-size: 2vh;
 }
 
 
