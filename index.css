@@ -641,7 +641,7 @@ body{
     justify-content: space-between;
     align-items: center;
 
-    width: 210vh;
+    width: 215vh;
     height: 11vh;
 
     position: relative;
@@ -665,6 +665,9 @@ body{
 .header-title h1 {
     color: white;
     font-size: 4vh;
+
+    position: relative;
+    left: 5vh;
 
     transition: opacity .3s ease;
 }
