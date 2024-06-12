@@ -680,7 +680,8 @@ body{
 .navbar {
     max-width: 80vh;
     width: 100vh;
-
+    position: relative;
+    right: 2vh;
 }
 
 .navbar ul{
