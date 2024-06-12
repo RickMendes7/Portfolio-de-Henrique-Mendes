@@ -641,10 +641,10 @@ body{
     justify-content: space-between;
     align-items: center;
 
-    width: 204vh;
+    width: 200vh;
     height: 11vh;
 
-    padding: 1vh 5vh;
+    padding: 1vh 3vh;
 
     background: 'transparent';
     position: fixed;
@@ -672,7 +672,7 @@ body{
 
 
 .navbar {
-    max-width: 85vh;
+    max-width: 75vh;
     width: 100vh;
 
 }
