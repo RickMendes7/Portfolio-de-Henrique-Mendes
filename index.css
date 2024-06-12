@@ -641,8 +641,11 @@ body{
     justify-content: space-between;
     align-items: center;
 
-    width: 200vh;
+    width: 210vh;
     height: 11vh;
+
+    position: relative;
+    right: -2.4vh;
 
     padding: 1vh 3vh;
 
@@ -672,7 +675,7 @@ body{
 
 
 .navbar {
-    max-width: 75vh;
+    max-width: 80vh;
     width: 100vh;
 
 }
