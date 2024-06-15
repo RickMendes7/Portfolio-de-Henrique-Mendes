@@ -209,7 +209,9 @@ body{
     width: 100vh;
     background: black;
      
-
+    
+    margin-top: 30vh;
+  
     display: flex;
     color: white;
 }
@@ -359,7 +361,7 @@ body{
     width: 200vh;
     background: black;
 
-    margin-top: 70vh;
+    margin-top: 25vh;
     display: flex;
     flex-direction: column;
     
@@ -667,7 +669,7 @@ body{
     font-size: 4vh;
 
     position: relative;
-    left: 7vh;
+    left: 13vh;
 
     transition: opacity .3s ease;
 }
