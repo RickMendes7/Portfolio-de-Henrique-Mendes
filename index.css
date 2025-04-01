@@ -84,7 +84,7 @@ body{
     flex-direction: row;
     
     width:80vh;
-    left: 26vh;
+    left: 22vh;
    
 
     position: relative;
@@ -139,6 +139,9 @@ body{
     width: 7.4vh;
 }
 
+.stacks .nodejs {
+    width: 10vh;
+}
 
 
 .fundo-perfil{
